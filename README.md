@@ -129,10 +129,10 @@
 103 |谈谈你对WEB标准以及W3C的理解与认识。
 104 |英文首字母大写
 105 |下面那几项是HTML4.01中不建议使用的（）
- |A. <font></font>
- |B. <em></em> 
- |C. <u></u>
- |D. <i></i>
+ |A. `<font></font>`
+ |B. `<em></em>` 
+ |C. `<u></u>`
+ |D. `<i></i>`
 110 |对WEB标准以及W3C的理解与认识
 111 |xhtml和html有什么区别
 112 |Doctype? 严格模式与混杂模式-如何触发这两种模式，区分它们有何意义?
@@ -156,10 +156,10 @@
 130 |"请缩写以下代码：box {      background-position: 10px 20px;      background-repeat: no-repeat;      background-attachment: fixed;      background-color: red;      background-image: url(box.png); }"
 131 |如何让一段文本中的所有英文单词的首字母大写
 132 |" 以下哪个不是 HTML5 的新标签： 
- |a.  <article>
- |b.  <section> 
- |c.  <address> 
- |d.  <time>
+ |a.  `<article>`
+ |b.  `<section>`
+ |c.  `<address>`
+ |d.  `<time>`
 133 |正确使用 HTML 和 CSS 实现以下效果（中间方框部分表示图片，右侧为文字列表。尽量不要 使用 float 属性）
 134 |<img>标签上title与alt属性的区别是什么？
 135 |分别写出以下几个HTML标签：文字加粗、下标、居中、字体
