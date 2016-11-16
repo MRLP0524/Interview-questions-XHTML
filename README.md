@@ -105,50 +105,8 @@
  |B. Firefox3.1
  |C. Safari3.1
  |D. Opera 9.5
-82 |读下面一段代码，相邻div的垂直外边距是多少？
- | ```
-<!—xhtml1.0-->
-<html>
-<head>
-<style type="text/css">
-div{height: 50px; margin: 50px; background-color: #999;}
-</style>
-</head>
-<body>
-		<div></div>
-		<div></div>
-		<div></div>
-</body>
-</html>
-```
-83 |读下面一段代码，div#a和div#b哪个叠放层次更高，a覆盖b还是b覆盖a？
- |```
-<!—xhtml1.0-->
-<html>
-<head>
-<style type="text/css">
-body{margin: 0;padding: 100px;background-color: #000;}
-div.elem{width: 100px;height: 120px;margin-top: -40px;
-	background-color:#FCE5A6;border: 1px solid #FFF;
-	position: absolute;
-}
-div.box{margin-top: -50px;padding: 10px 20px;
-	width: 100px;height: 100px;
-	background-color: #F97C01;border: 1px solid #FFF;
-	position: relative;
-}
-</style>
-</head>
-<body>
-<div class="box" style="z-index: 2;">
-<div class="elem" id="a" style="z-index: 3;">a</div>
-	</div>
-	<div class="box" style="margin-left: 60px; z-index: 1;" >
-    	  <div class="elem" id="b" style="z-index: 4;">b</div>
-	</div>
-</body>
-</html>
-```
+82|见最后
+83|见最后
 84 |标签语义化和CSS命名语义化有什么好处？
 85 |某种效果，有两种实现方案都可以实现，方案一：<img>标签；方案二：背景图，两个方案如何取舍？衡量的标准是什么?
 86 |应用DIV+CSS写出一个固定宽度的三列布局，能够使内容根据屏幕大小自适应居中。
@@ -218,3 +176,52 @@ div.box{margin-top: -50px;padding: 10px 20px;
 146 |打开（隐藏）、关闭（显示）一个对象，style的display以及visibility的参数是什么？
 147 |用CSS和Div实现3列或2列的页面布局，并说明与table布局相比有哪些优缺点
 148 |定宽网页两列内容布局，试写出你所知道的几种布局代码（HTML+css），再简单描述下各种布局的优缺点。
+
+
+82 读下面一段代码，相邻div的垂直外边距是多少？ 
+
+```
+<!—xhtml1.0-->
+<html>
+<head>
+<style type="text/css">
+div{height: 50px; margin: 50px; background-color: #999;}
+</style>
+</head>
+<body>
+		<div></div>
+		<div></div>
+		<div></div>
+</body>
+</html>
+```
+
+83 读下面一段代码，div#a和div#b哪个叠放层次更高，a覆盖b还是b覆盖a？
+
+```
+<!—xhtml1.0-->
+<html>
+<head>
+<style type="text/css">
+body{margin: 0;padding: 100px;background-color: #000;}
+div.elem{width: 100px;height: 120px;margin-top: -40px;
+	background-color:#FCE5A6;border: 1px solid #FFF;
+	position: absolute;
+}
+div.box{margin-top: -50px;padding: 10px 20px;
+	width: 100px;height: 100px;
+	background-color: #F97C01;border: 1px solid #FFF;
+	position: relative;
+}
+</style>
+</head>
+<body>
+<div class="box" style="z-index: 2;">
+<div class="elem" id="a" style="z-index: 3;">a</div>
+	</div>
+	<div class="box" style="margin-left: 60px; z-index: 1;" >
+    	  <div class="elem" id="b" style="z-index: 4;">b</div>
+	</div>
+</body>
+</html>
+```
