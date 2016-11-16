@@ -96,10 +96,10 @@
  |D."5"==5
  |E.undefined==0
 80 |在下面的XHTML标签中，正确地标记折行的是（）
- |A. <br />
- |B. <break>
- |C. <br>
- |D.</br>
+ |A. `<br />`
+ |B. `<break>`
+ |C. `<br>`
+ |D.<`/br>`
 81 |下面不支持overflow-y属性的浏览器是（）
  |A. IE7
  |B. Firefox3.1
@@ -155,7 +155,7 @@
 129 |display:none  和  visibility:hidden  的区别是什么
 130 |"请缩写以下代码：box {      background-position: 10px 20px;      background-repeat: no-repeat;      background-attachment: fixed;      background-color: red;      background-image: url(box.png); }"
 131 |如何让一段文本中的所有英文单词的首字母大写
-132 |" 以下哪个不是 HTML5 的新标签： 
+132 |以下哪个不是 HTML5 的新标签： 
  |a.  `<article>`
  |b.  `<section>`
  |c.  `<address>`
