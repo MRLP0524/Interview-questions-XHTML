@@ -36,7 +36,7 @@
  |D.div.b#a
 29|写CSS命令，设置字体为宋体，12px大小，颜色为#eeeeee,加粗。
 30|常用布局属性有哪些？有什么特点？
-31|一个div，css设置如下：{width:200px;margin:200px 20px;padding:50px 60px 70px;border:100px solid red;overflow:hidden;}在IE6怪癖解析下，这个div的实际宽是多少？在正常解析下，这个div的实际宽度是多少?
+31|一个div，css设置如下：`{width:200px;margin:200px 20px;padding:50px 60px 70px;border:100px solid red;overflow:hidden;}`在IE6怪癖解析下，这个div的实际宽是多少？在正常解析下，这个div的实际宽度是多少?
 32|web网页中常见的图片格式有哪些？分别有什么特点？
 33|在HTML中，SEO常见的白帽优化技巧有哪些？
 34|块属性标签与行属性标签的区别？哪些标签是块属性的，哪些是行的？
@@ -56,8 +56,8 @@
 43|用一两句话说一下你对“盒模型”这个概念的理解，和它都涉及到哪些css属性。
 44|外边距、内边距、边框有几种书写形式,列举说明。
 45|有上下两个div，上一个div 设置margin-bottom：10px；下一个div设置margin-top： 5px；那么两个div最后的间距是多少？
-46|写出下列CSS命令的最简写法{margin-left:20px; margin-bottom:50px; margin-right:20px; margin-top:20px;}
-47|我们用hack调兼容时，用到如下命令 div{height：300px；*height：40|0px；_height：500px;}，在ie6里div显示高度是多少，火狐里显示高度是多少？
+46|写出下列CSS命令的最简写法`{margin-left:20px; margin-bottom:50px; margin-right:20px; margin-top:20px;}`
+47|我们用hack调兼容时，用到如下命令 `div{height：300px；*height：40|0px；_height：500px;}`，在ie6里div显示高度是多少，火狐里显示高度是多少？
 48|三层嵌套用在什么地方最合适，有什么优点。
 49|背景图合并用在什么地方最适合，有什么优点。
 50|页面如何在浏览器里达到居中，并且左右自适应？
