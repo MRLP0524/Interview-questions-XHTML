@@ -30,10 +30,10 @@
 26|下面的布局如何实现,如何不用浮动还能使用什么布局方式
 27|HTML静态页面出现中文乱码如何解决？
 28|下列哪个选择器优先级是最高的？
--|A.#a
+ |A.#a
  |B..a .b .c .d .e .f .g .h .i .j .k .l .m .n .o
-|C.#a .b
-|D.div.b#a
+ |C.#a .b
+ |D.div.b#a
 29|写CSS命令，设置字体为宋体，12px大小，颜色为#eeeeee,加粗。
 30|常用布局属性有哪些？有什么特点？
 31|一个div，css设置如下：{width:200px;margin:200px 20px;padding:50px 60px 70px;border:100px solid red;overflow:hidden;}在IE6怪癖解析下，这个div的实际宽是多少？在正常解析下，这个div的实际宽度是多少?
@@ -49,10 +49,10 @@
 41|HTML静态页面出现中文乱码如何解决？
 42|下列标签既是行内属性标签又可以设宽高的标签是？
  |A. div
--|B. span
-|C. input
-|D. img
-E. h1
+ |B. span
+ |C. input
+ |D. img
+ |E. h1
 43|用一两句话说一下你对“盒模型”这个概念的理解，和它都涉及到哪些css属性。
 44|外边距、内边距、边框有几种书写形式,列举说明。
 45|有上下两个div，上一个div 设置margin-bottom：10px；下一个div设置margin-top： 5px；那么两个div最后的间距是多少？
