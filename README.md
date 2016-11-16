@@ -106,7 +106,7 @@
  |C. Safari3.1
  |D. Opera 9.5
 82 |读下面一段代码，相邻div的垂直外边距是多少？
-```
+ | ```
 <!—xhtml1.0-->
 <html>
 <head>
@@ -122,7 +122,7 @@ div{height: 50px; margin: 50px; background-color: #999;}
 </html>
 ```
 83 |读下面一段代码，div#a和div#b哪个叠放层次更高，a覆盖b还是b覆盖a？
-```
+ |```
 <!—xhtml1.0-->
 <html>
 <head>
@@ -148,7 +148,6 @@ div.box{margin-top: -50px;padding: 10px 20px;
 	</div>
 </body>
 </html>
-
 ```
 84 |标签语义化和CSS命名语义化有什么好处？
 85 |某种效果，有两种实现方案都可以实现，方案一：<img>标签；方案二：背景图，两个方案如何取舍？衡量的标准是什么?
@@ -196,11 +195,11 @@ div.box{margin-top: -50px;padding: 10px 20px;
 127 |overflow-x  属于 CSS2 还是 CSS3
 128 |请列举几种可以清除浮动的方法（至少两种）
 129 |display:none  和  visibility:hidden  的区别是什么
-130 |"请缩写以下代码： .box {      background-position: 10px 20px;      background-repeat: no-repeat;      background-attachment: fixed;      background-color: red;      background-image: url(box.png); }"
+130 |"请缩写以下代码：box {      background-position: 10px 20px;      background-repeat: no-repeat;      background-attachment: fixed;      background-color: red;      background-image: url(box.png); }"
 131 |如何让一段文本中的所有英文单词的首字母大写
 132 |" 以下哪个不是 HTML5 的新标签： 
  |a.  <article>
- | b.  <section> 
+ |b.  <section> 
  |c.  <address> 
  |d.  <time>
 133 |正确使用 HTML 和 CSS 实现以下效果（中间方框部分表示图片，右侧为文字列表。尽量不要 使用 float 属性）
